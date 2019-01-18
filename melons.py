@@ -49,6 +49,8 @@ class GovernmentMelonOrder(AbstractMelonOrder):
     
     passed_inspection = False
 
+    tax = 0.00
+
     def mark_inspection(self, passed):
 
         self.passed_inspection = passed
